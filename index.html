@@ -8,23 +8,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Sophie Cleton">
     <title>Sophie Cleton</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- link is a link to another file, this links to the style file -->
 </head>
 <body>
     <!-- here everything is that people will see on the page -->
     <h1>Sophie Cleton</h1>
     <!-- header, goes from 1 to 6 becoming smaller -->
-    <p>Hi, I'm Sophie. I am a Strategic Design Student at <strong>Technical University Delft</strong>. </p>
+
+ <div class="grid-container">
+
+    <div class="empty">
+
+    </div>
+    <div class="picture-column">
+        <img src="./IMG_1790.jpeg" alt="Headshot of Sophie Cleton" width="300">
+        <!-- image is img, it doesn't need a end tag. Alt is what shows if the image doesn't show, some text fe -->
+        <!-- class, categorize and name certain text and give it specific styles; an id (#) is more specific -->
+    </div>
+
+    <div class="information-column">
+    <p>
+        Hi, I'm Sophie. I am a Strategic Design Student at the <strong>Technical University Delft</strong>. I am a strategic designer motivated to accelerate the energy transition, by co-creating humancentered and financially viable business proposals. As a skilled intermediator, I excel at connecting technical and business people to
+        enable valuable innovation within start-ups. While contributing to a cleaner and more sustainable future.</p>
    <!-- <em> makes text italic; <strong> makes it bold  -->
     <!-- p = paragraph, always put text in here -->
-    <p>
-        <a href="https://www.linkedin.com/in/sophie-cleton-37444817b/" target="_blank">LinkedIn</a>
-        <a href="mailto:sophiecleton@gmail.com">Personal Email</a>
-        <a href="./CV_Sophie Cleton_2023.pdf" target="_blank">CV</a>
+   </p>
+   <div class="links-column">
+   <p>
+        <a class="button" href="https://www.linkedin.com/in/sophie-cleton-37444817b/" target="_blank">LinkedIn</a>
+        <a class="button" href="mailto:sophiecleton@gmail.com">Personal Email</a>
+        <a class="button" href="./CV_Sophie Cleton_2023.pdf" target="_blank">Curriculum Vitae</a>
+        <a class="button" href="portfolio">Portfolio</a>
 
         <!-- a is for adding a link -->
         <!-- after the link with " add  target="_blank" in order to open de link in a new tab -->
     </p>
-    <img src="./IMG_1790.jpeg" alt="Headshot of Sophie Cleton" width="300">
-    <!-- image is img, it doesn't need a end tag. Alt is what shows if the image doesn't show, some text fe -->
+    </div>
+    </div>
+
+   
+ </div>
+<!-- divider of the page -->
 </body>
 </html>

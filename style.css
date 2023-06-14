@@ -1,0 +1,62 @@
+/* below importing a font into the code, later on referenced to this. google fonts is easier to use than adobe */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    /* general lay-out of the page */
+    background-color: #271946;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto; /* center the page */
+    padding: 3%;  /* add a frame around the information on the page */
+    max-width: 1200 px;
+}
+h1 {
+    /* style for the header */
+    font-family: 'Montserrat', 900, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+p {
+    /* style for the paragraphs */
+    font-family:'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+a { 
+    /* style for the links */
+    color: aqua;
+    margin-right: 20px;
+}
+/* copy styles from chatGPT, in CSS */
+
+/* making columns in the page */
+.grid-container {
+    display: grid;
+    grid-template-columns: 50px 0.75fr 2fr;
+    /* two columns, amount of auto's. Can also be divided in percentages or fractions*/
+    /* add a . before a class */
+    column-gap: 30px;
+    /* column-gap to seperate different columns */
+    align-items: center;
+    /* all items will be aligned in the center of the column */
+}
+
+.links-column{
+    text-align: center;
+}
+
+.img{
+    padding: 10px;
+    width: 100%;
+}
+
+.button{
+    background-color: black;
+    padding: 5px;
+    border: 1px solid transparent;
+}
+
+.button:hover{
+ color: white;
+ border-color: white;
+}

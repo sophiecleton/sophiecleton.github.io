@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<!-- DocType tells you the type of document -->
+<!-- <html> is start of code and </html> is the end -->
+<html lang="en">
+    <!-- lang = language of page -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sophie Cleton">
+    <title>Sophie Cleton</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- link is a link to another file, this links to the style file -->
+</head>
+<body>
+    <!-- here everything is that people will see on the page -->
+    <h1>Portfolio</h1>
+    <!-- header, goes from 1 to 6 becoming smaller -->
+
+</body>
+</html>
